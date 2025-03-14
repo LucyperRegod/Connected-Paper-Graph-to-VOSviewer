@@ -112,5 +112,4 @@ ghi2.close()
 # for l in range(len(Edges_X1)):
 #     print("x1: ", Edges_X1[l],"y1: ", Edges_Y1[l],"x2: ",Edges_X2[l],"y2: ",Edges_Y2[l], "Strength:", Edges_Strength[l])
 print("Hoàn thành!")
-x = input()
-if x == 0: driver.quit
+driver.quit
